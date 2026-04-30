@@ -2,7 +2,6 @@
 
 3D Lorenz attractor simulation via C as an Interface with Fortran as the Engine.
 High-performance numerical integration of the chaotic butterfly manifold.
-Designed for low-level system efficiency and terminal-centric workflows.
 
 ---
 
