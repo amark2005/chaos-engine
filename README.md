@@ -5,7 +5,7 @@ High-performance numerical integration of the chaotic butterfly manifold.
 
 ---
 
-![alt text](sample.png)
+![alt text](sampgif.gif)
 
 ---
 ### Prerequisites
