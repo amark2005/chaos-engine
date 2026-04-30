@@ -6,7 +6,7 @@
 *.ko
 *.obj
 *.elf
-
+*.mod
 # Linker output
 *.ilk
 *.map
@@ -21,7 +21,7 @@
 *.a
 *.la
 *.lo
-
+chaosdiff.csv
 # Shared objects (inc. Windows DLLs)
 *.dll
 *.so
