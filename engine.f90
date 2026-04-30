@@ -28,4 +28,15 @@ function lyapunov(r) bind(c)
     lyapunov = sum / count
   end if
 end function 
+subroutine lorenz_step(x, y, z, sigma, rho, beta, dt) bind(c)
+  real(c_double), intent(inout) :: x, y, z
+  real(c_double), value         :: sigma, rho, beta, dt
+  real(c_double) :: dx, dy, dz
+  dx = sigma * (y - x)
+  dy = x * (rho - z) - y
+  dz = x * y - beta * z
+  x = x + dx * dt
+  y = y + dy * dt
+  z = z + dz * dt
+end subroutine
 end module engine
